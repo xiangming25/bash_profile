@@ -17,8 +17,8 @@ alias gcm='git commit -m'
 alias gamend='git commit --amend'
 alias gck='git checkout'
 alias gpick='git cherry-pick'
-alias gpush='git push'
-alias gp='git pull origin master'
+alias gp='git push'
+alias gplm='git pull origin master'
 
 alias gdqa='git branch | grep "qa" | xargs git branch -D'
 
@@ -30,6 +30,9 @@ alias host='code /c/Windows/System32/drivers/etc/hosts'
 alias open='explorer'
 
 alias start='yarn start'
+
+alias pstart='pnpm start'
+alias pi='pnpm install'
 
 alias blogs='cd /c/Users/Administrator/blogs/xiangming25.github.io'
 alias crm='cd /d/project/huohua-crm-web'

@@ -18,6 +18,7 @@ alias gamend='git commit --amend'
 alias gck='git checkout'
 alias gpick='git cherry-pick'
 alias gp='git push'
+alias gpf='git push -f'
 alias gplm='git pull origin master'
 
 alias gdqa='git branch | grep "qa" | xargs git branch -D'
@@ -40,3 +41,4 @@ alias all='cd /d/project/teacher-workbench-web'
 alias manage='cd /d/project/operation-platform-web'
 
 alias std='cd /d/study'
+alias deploySim="cd /d/study/vispark-crm &&  ./deploySim.sh"
